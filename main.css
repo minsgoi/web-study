@@ -2,46 +2,142 @@
     font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 body {
-    background-color: #ff5d00;
+    background-color: #FFFFFF;
+   
+    }
+#main-container{
+    background-color: #FFFFFF;
+    width: 1232px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#container {
-    width: 500px;
-    height: 300px;
-    margin-top: 300px;
-    text-align: center
+#header-container{
+    width: 420px;
+    
 }
-#title{
-    color: #ffffff;
-}
-#sub-container {
+#title-container{
     width: 100%;
-    height: 300px;
-    background-color:#ffffff;
-    border: 1px solid #0c0c0c;
-    border-radius: 10px;
+    text-align: left;
+    display:inline;
+    padding:0px;
+    margin-bottom:0px;
 }
+#spacing16{
+    width: 100%;
+    height: 16px;
+    padding:0px;
 
-#list-group{
-    margin-top: 20px;
-    font-size: 14px;
+}
+#spacing12{
+    width: 100%;
+    height: 12px;
+    padding:0px;
+
+}
+#spacing8{
+    width: 100%;
+    height: 8px;
+    padding:0px;
+
+}
+#subtitle-container{
+    width: 100%;
+    text-align: left;
+    padding:0px;
+}
+#title-level3 {
+    font-size: 28pt;
+    font-weight: 700;
+    line-height: 36pt;
+    margin: 0px;
+}
+#title-level7 {
+    font-size: 14pt;
+    font-weight: 500;
+    line-height: 20pt;
+    margin: 0px;
+}
+#body-level3{
+    color: #747474;
+    font-size: 11pt;
     font-weight: 400;
+    line-height: 14pt;
+    margin: 0px;
 }
-.list-group-item{
-    border: none !important;
-    border-bottom: 1px solid #eeeeee !important;
-    border-radius: 0 !important;
+#signin-container{
+    background-color: #F3F3F3;
+    width: 420px;
+    height:340px;
+    padding: 28px;
+    padding-top: 36px;
+    border-radius: 10px;
+    border: 1px solid #C7C7C7;
 }
-#input-group {
-    margin-top: 10px;
+.btn{
+    height:48px !important;
 }
-#input-area {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+.form-control{
+    height: 40px;
 }
-#button-area{
-    border: none;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color: purple;
-    color: #ffffff;
+#main-container2{
+    background-color: #FFFFFF;
+    width: 1232px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card-container1{
+    width:300px;
+    height:360px;
+    background-image: url(https://www.yankodesign.com/images/design_news/2022/05/auto-draft/Nike-ISPA.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 12px;
+    color:#F3F3F3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+#card-container2{
+    width:300px;
+    height:360px;
+    background-image: url(https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/g1ljiszo4qhthfpluzbt/nike-joyride.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 12px;
+    color:#F3F3F3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+#card-container3{
+    width:300px;
+    height:360px;
+    background-image: url(https://pbs.twimg.com/media/FZDXuLUUEAAjYir?format=jpg&name=large);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 12px;
+    color:#F3F3F3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+#title-level1 {
+    font-size: 32pt;
+    font-weight: 700;
+    line-height: 40pt;
+    margin: 0px;
+    text-align: center;
 }
